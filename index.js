@@ -1,1 +1,1 @@
-console.log('DevSetup — environnement prêt.');
+console.log('DevSetup : environnement prêt.');

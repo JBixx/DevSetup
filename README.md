@@ -28,7 +28,7 @@ Configuration de mon environnement de développement local. Ce dépôt centralis
 
 ## Utilisation
 
-Ce dépôt sert de point de départ pour mes projets. Le fichier `package.json` définit les scripts de base disponibles.
+Ce dépôt sert de point de départ pour mes projets. Le dossier `notes/` contient mes réflexions et apprentissages au fil des semaines. Le fichier `package.json` définit les scripts de base disponibles.
 
 Commandes utiles :
 
@@ -37,13 +37,21 @@ Commandes utiles :
 | `npm start`   | Lance l'application en mode simple   |
 | `npm run dev` | Mode développement avec rechargement |
 
+Pour ajouter une nouvelle note, créer un fichier markdown dans `notes/` en suivant la convention de nommage existante.
+
 ## Structure du projet
 
 ```
 DevSetup/
-├── README.md          # Documentation principale
-├── package.json       # Configuration npm et scripts
-└── index.js           # Point d'entrée de l'application
+├── README.md                        # Documentation principale
+├── package.json                     # Configuration npm et scripts
+├── index.js                         # Point d'entrée de l'application
+├── .gitignore                       # Fichiers exclus du versioning
+├── .editorconfig                    # Règles de formatage éditeur
+└── notes/
+    ├── notes-semaine1.md            # Première semaine
+    ├── node-basics.md               # Deuxième semaine
+    └── setup-guide.md               # Guide
 ```
 
 ## Liens et références
